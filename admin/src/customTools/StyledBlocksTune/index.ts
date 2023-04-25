@@ -22,7 +22,6 @@ export class StyledBlocksTune {
         }
         this.data = data;
         this.styles = [];
-        console.log('hest c', config)
         if (config && config.styles) {
             this.styles = config.styles;
         }
@@ -60,7 +59,6 @@ export class StyledBlocksTune {
     }
 
     protected addButton(style: StyledBlocksStyle): HTMLElement {
-        console.log('hest',)
         const button = window.document.createElement('div');
         const icon = window.document.createElement('div');
         icon.classList.add('ce-popover__item-icon');
