@@ -47,7 +47,6 @@ export class StyledBlocksTune {
             blockContent.style.backgroundColor = style.background;
             blockContent.style.position = 'relative';
             blockContent.style.paddingLeft = '1em';
-            //blockContent.classList.add('is-teacher-only');
             blockContent.querySelector
         }
         this.blockContent = blockContent;
@@ -86,15 +85,12 @@ export class StyledBlocksTune {
     public render(): HTMLElement {
         const self = this;
         const wrapper = window.document.createElement('div');
-        // let button;
+
+        // Iterate through all styles and add a button for each with the appropriate behavior.
         this.styles.forEach((style: StyledBlocksStyle) => {
             const button = self.addButton(style);
             wrapper.appendChild(button);
         });
-        // if (!button) {
-        //     button = this.addButton(this.styles[0]);
-        // }
-
         return wrapper;
     }
 }
