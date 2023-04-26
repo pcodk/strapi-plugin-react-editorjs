@@ -66,10 +66,15 @@ const customTools = {
       ],
     },
   },
+  paragraph: {
+    tunes: [
+      'styledTuneType'
+    ],
+  },
   toggleBlock: {
     class: ToggleBlock,
     inlineToolbar: true,
-    tunes: ['styledTuneType'],
+    // tunes: ['styledTuneType'],
   },
   header: {
     class: Header,
