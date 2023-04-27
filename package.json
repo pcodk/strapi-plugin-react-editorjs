@@ -30,6 +30,7 @@
     "@editorjs/warning": "1.2.0",
     "classnames": "^2.3.1",
     "editorjs-latex": "^1.0.0",
+    "editorjs-styledblocks": "github:DonArrillo/editorjs-styledblocks",
     "editorjs-toggle-block": "^0.3.10",
     "get-file-object-from-local-path": "1.0.2",
     "open-graph-scraper": "4.9.2",
